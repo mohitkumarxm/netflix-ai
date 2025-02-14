@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <>
-      <div className="text-red-500 font-bold text-2xl">I am using tailwind</div>
-    </>
-  );
+  return <Body />;
 }
 
 export default App;
